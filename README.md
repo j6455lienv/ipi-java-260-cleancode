@@ -5,7 +5,7 @@ liens : https://github.com/UDEV-AuRA/ipi-java-260-cleancode/blob/master/Qualit%C
 Choisir 5 règles et trouver (dans des anciens par exemple ou inventer) des portions de code ne respectant ces règles.
 Et proposez des solutions pour l'améliorer
 
-jve : ok -> src/badPractices.txt
+jve : ok -> src/badPractices.md
 
 ## TP
 Continuer le GameBowling
