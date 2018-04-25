@@ -7,13 +7,13 @@ Et proposez des solutions pour l'améliorer
 
 jve : ok
 
-##Cas de bad practices
+## Cas de bad practices
 __* Nom de classes ou methode incompréhensibles et non prononçables ou juste une lettre__<br/>
 __* Aucune normes utilisées pour écriture des mots de methodes, variables ... ex:camelCase ou norme client__<br/>
 __* Code sans commentaires__<br/>
 __* on sépare les couches d'abstraction__<br/>
 __* Indentation inexistante__
-##transformation de BowlingGame.score() pour répondre à toutes ces bad practices
+## Transformation de BowlingGame.score() pour répondre à toutes ces bad practices
 
 public int s() {<br/>
 int s = 0;<br/>
