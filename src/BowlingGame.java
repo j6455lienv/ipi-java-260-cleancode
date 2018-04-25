@@ -1,6 +1,6 @@
 public class BowlingGame {
-    int[] rolls;
-    int currentRoll;
+    private int[] rolls;
+    private int currentRoll;
 
     public BowlingGame() {
         this.rolls = new int[21];
@@ -10,6 +10,7 @@ public class BowlingGame {
         rolls[currentRoll++] = p;
     }
 
+    //
     public int score() {
         int score = 0;
         int frame = 0;
@@ -26,7 +27,6 @@ public class BowlingGame {
                 frame += 2;
             }
         }
-
         return score;
     }
 
